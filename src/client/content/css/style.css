@@ -1,0 +1,13 @@
+body {
+  padding: 20px;
+}
+
+#game {
+  margin: auto;
+  width: 640px;
+  height: 480px;
+}
+
+#info {
+  text-align: center;
+}
