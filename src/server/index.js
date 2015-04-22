@@ -13,5 +13,9 @@ app.use(function (req, res, next) {
   next();
 });
 
+app.get(/^socket.io.js$/, function(req, res){
+    res.sendfile('socket-io.1.3.5.js');
+});
+
 server.listen(port);
 console.log('Listening on localhost:' + port);
