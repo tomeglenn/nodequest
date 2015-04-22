@@ -11,7 +11,6 @@ var game = new Phaser.Game(640, 480, Phaser.AUTO, 'game', {
 });
 
 var socket = io('http://server-nodequest.herokuapp.com');
-
-socket.on('connect', function() {
+socket.on('connection', function() {
   alert('connected');
 });
